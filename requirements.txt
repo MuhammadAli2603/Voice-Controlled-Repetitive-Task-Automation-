@@ -1,0 +1,107 @@
+# Gideon - Voice-Controlled Task Automation System
+# Requirements file for all dependencies
+# Author: Muhammad Ali (CodeCelix Internship)
+# Python Version: 3.8+
+
+# ==================== CORE DEPENDENCIES ====================
+
+# Vosk Offline Speech Recognition - Replaces PyAudio/SpeechRecognition
+# 100% offline, no DLL issues, cross-platform
+vosk==0.3.45
+
+# Audio input/output - Replaces PyAudio
+sounddevice==0.4.6
+
+# Audio file handling
+soundfile==0.12.1
+
+# Numerical operations (required by sounddevice)
+numpy==1.26.4
+
+# Text-to-Speech - Gideon's voice output
+pyttsx3==2.90
+
+# YouTube Integration - KEY FEATURE for playing videos
+pywhatkit==5.4
+
+# Task Scheduling - Schedule commands for specific times
+schedule==1.2.0
+
+# Progress bars for model downloads
+tqdm==4.66.1
+
+# ==================== DEPRECATED DEPENDENCIES ====================
+# These are NO LONGER NEEDED with Vosk:
+# SpeechRecognition==3.10.0  # Replaced by Vosk
+# PyAudio==0.2.14  # Replaced by sounddevice
+
+# Web automation and browser control
+pyautogui==0.9.54
+
+# Wikipedia integration (optional, for future expansion)
+wikipedia==1.4.0
+
+# ==================== SYSTEM UTILITIES ====================
+
+# Path manipulation (included in Python 3.4+, but listed for clarity)
+# pathlib - standard library
+
+# Subprocess management (standard library)
+# subprocess - standard library
+
+# Logging (standard library)
+# logging - standard library
+
+# ==================== NOTES ====================
+#
+# Installation Instructions:
+# -------------------------
+# 1. Create virtual environment:
+#    python -m venv venv
+#
+# 2. Activate virtual environment:
+#    Windows: venv\Scripts\activate
+#    Linux/Mac: source venv/bin/activate
+#
+# 3. Install dependencies:
+#    pip install -r requirements.txt
+#
+# ==================== TROUBLESHOOTING ====================
+#
+# PyAudio Installation Issues:
+# ----------------------------
+# If PyAudio fails to install, try:
+#   Windows: pip install pipwin && pipwin install pyaudio
+#   Or download wheel from: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+#
+# Microphone Access:
+# ------------------
+# Ensure microphone permissions are granted to Python/Terminal
+#
+# Internet Connection:
+# -------------------
+# Required for:
+#   - Google Speech Recognition API
+#   - YouTube video playback (pywhatkit)
+#   - Opening web URLs
+#
+# ==================== VERSION COMPATIBILITY ====================
+#
+# Tested on:
+#   - Python 3.8+
+#   - Windows 10/11
+#   - Requirements as of January 2026
+#
+# ==================== OPTIONAL DEPENDENCIES ====================
+#
+# For enhanced features (not required for basic operation):
+#
+# # Weather information
+# # requests==2.31.0
+#
+# # Email sending
+# # secure-smtplib==0.1.1
+#
+# # Advanced file operations
+# # python-magic==0.4.27
+#
