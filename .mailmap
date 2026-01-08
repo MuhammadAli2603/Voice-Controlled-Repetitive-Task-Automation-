@@ -1,0 +1,13 @@
+# .mailmap - Git author identity mapping
+# This ensures all commits are attributed to the correct author
+# regardless of which email or name was used
+
+# Map all variations to the canonical identity
+Muhammad Ali <muhammadali2603@gmail.com>
+Muhammad Ali <muhammadali2603@gmail.com> <muhammadaliaps1234@gmail.com>
+Muhammad Ali <muhammadali2603@gmail.com> <124609535+MuhammadAli2603@users.noreply.github.com>
+Muhammad Ali <muhammadali2603@gmail.com> <FA22-BCS-115@cuiatd.edu.pk>
+
+# Prevent Claude attribution
+Muhammad Ali <muhammadali2603@gmail.com> Claude Sonnet 4.5 <noreply@anthropic.com>
+Muhammad Ali <muhammadali2603@gmail.com> <claude@anthropic.com>
