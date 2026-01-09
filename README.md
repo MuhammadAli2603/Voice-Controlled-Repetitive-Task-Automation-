@@ -796,7 +796,6 @@ This project is created for educational purposes as part of an AI Engineer inter
 ## 🙏 Acknowledgments
 
 - **The Flash (TV Series)**: Inspiration for Gideon's name and personality
-- **CodeCelix**: Internship opportunity and project guidance
 - **Python Community**: For excellent libraries and documentation
 - **Open Source Contributors**:
   - **Vosk** (Alpha Cephei): Amazing offline speech recognition
